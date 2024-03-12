@@ -13,13 +13,19 @@
     src: url(./CSS/fonts/Merriweather-Regular.ttf);
 }
 
+body{
+    text-align: center;
+}
+
 h1 {
     font-family: Delius;
     font-size: 40px;
+    color: #233E8B;
 }
 
 #coline {
     font-size: 60px;
+    color: #1EAE98 ;
 }
 
 .title-text {
@@ -30,6 +36,7 @@ h1 {
 h2 {
     font-family: WorkSans;
     font-weight: 700;
+    color: #233E8B;
 }
 
 h3 {
@@ -39,11 +46,12 @@ h3 {
 
 p {
     font-family: Merriweather;
+    font-size: 16px;
 
 }
 
 hr {
-    border: dotted #87caca 6px;
+    border: dotted #1EAE98 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
@@ -65,6 +73,44 @@ hr {
     border-radius: 50%;
 }
 
-#contact-me {
+.skills{
+}
+
+.contact-me{
+    margin: 0%;
+    display: block;
+    
+}
+
+.btn{
+    background-color: #1EAE98;
     font-family: WorkSans;
+    color:#A9F1DF;
+    border-radius: 8pt;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+
+.bottom-container{
+    display: block;
+    background-color: #A9F1DF;
+    padding: 50px 0 20px;
+}
+
+.footer-link{
+    font-family: Merriweather;
+    font-size: 25px ;
+    color: #233E8B;
+}
+
+.credits{
+    font-family: Merriweather;
+    font-size: 10px;
+    color: #233E8B;
+}
+
+.copyright{
+    font-family: Merriweather;
+    color: #233E8B;
+    font-size: 13px;
 }
