@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Delius;
+    src: url(./CSS/fonts/DeliusUnicase-Regular.ttf);
+}
+
+@font-face {
+    font-family: WorkSans;
+    src: url(./CSS/fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url(./CSS/fonts/Merriweather-Regular.ttf);
+}
+
+h1 {
+    font-family: Delius;
+    font-size: 40px;
+}
+
+#coline {
+    font-size: 60px;
+}
+
+.title-text {
+    display: block;
+    margin:auto
+}
+
+h2 {
+    font-family: WorkSans;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: Worksans;
+    font-weight: 500;
+}
+
+p {
+    font-family: Merriweather;
+
+}
+
+hr {
+    border: dotted #87caca 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.intro-pic {
+    display: grid;
+    justify-content: center;
+}
+
+#cat-ears {
+    width: 150px;
+    display: grid;
+    margin-bottom: -75px;
+}
+
+#coline-pfp {
+    height: 150px;
+    border-radius: 50%;
+}
+
+#contact-me {
+    font-family: WorkSans;
+}
