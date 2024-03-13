@@ -13,53 +13,69 @@
     src: url(./CSS/fonts/Merriweather-Regular.ttf);
 }
 
-body{
+body {
     text-align: center;
+}
+
+.top-container{
+    background-color: #FDFFE7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 }
 
 h1 {
     font-family: Delius;
-    font-size: 40px;
+    font-size: 60px;
     color: #233E8B;
+    padding-bottom: 75px;
 }
 
 #coline {
-    font-size: 60px;
-    color: #1EAE98 ;
+    font-size: 80px;
+    color: #1EAE98;
 }
 
 .title-text {
     display: block;
-    margin:auto
+    margin: auto
 }
 
 h2 {
     font-family: WorkSans;
     font-weight: 700;
+    font-size: 50px;
     color: #233E8B;
+    padding-bottom: 60px;
 }
 
 h3 {
     font-family: Worksans;
+    font-size: 35px;
     font-weight: 500;
 }
 
 p {
     font-family: Merriweather;
-    font-size: 16px;
-
+    font-size: 20px;
+    max-width: 45% ;
+    margin: auto;
+    padding: 30px 30px;
+    line-height: 35px;
 }
 
 hr {
     border: dotted #1EAE98 6px;
     border-bottom: none;
     width: 4%;
-    margin: 100px auto;
+    margin: 60px auto;
 }
 
 .intro-pic {
     display: grid;
     justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 #cat-ears {
@@ -73,43 +89,60 @@ hr {
     border-radius: 50%;
 }
 
-.skills{
+.skills {
+    display: block;
+    justify-content: center;
 }
 
-.contact-me{
+.hobbies {
+    display: block;
+    justify-content: center;
+
+}
+
+.contact-me {
     margin: 0%;
     display: block;
-    
+
 }
 
-.btn{
+.btn {
     background-color: #1EAE98;
     font-family: WorkSans;
-    color:#A9F1DF;
+    font-size: 30px;
+    color: #A9F1DF;
     border-radius: 8pt;
     padding: 15px 32px;
     text-decoration: none;
+    margin: auto;
 }
 
-.bottom-container{
+#contact-btn {
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.bottom-container {
     display: block;
     background-color: #A9F1DF;
-    padding: 50px 0 20px;
+    padding: 50px;
 }
 
-.footer-link{
-    font-family: Merriweather;
-    font-size: 25px ;
+.footer-link {
+    font-family: WorkSans;
+    font-size: 25px;
     color: #233E8B;
 }
 
-.credits{
+.credits {
     font-family: Merriweather;
-    font-size: 10px;
+    font-size: 15px;
     color: #233E8B;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
-.copyright{
+.copyright {
     font-family: Merriweather;
     color: #233E8B;
     font-size: 13px;
